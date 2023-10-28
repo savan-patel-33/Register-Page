@@ -1,0 +1,101 @@
+body{
+    background-color: lightslategrey;
+}
+.main_section{
+    margin: 4%;
+}
+.register_form{
+    display: flex;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+    border: transparent;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+.about_company{
+    background-color: darkslateblue;
+    padding: 30px;
+}
+.about_company > h4{
+    padding-top: 45px;
+}
+.about_company, h4, p, h5{
+    text-align: center;
+    color: white;
+}
+.image_ceo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+.image_ceo > img{
+    width: 100%;
+    height: auto;
+}
+
+
+.registration_content{
+    background-color: white;
+    padding: 30px;
+}
+.registration_content > h4{
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+}
+.registration_content > p{
+    color: rgb(150, 150, 150);
+}
+.name_field{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.name_field > input{
+    width: 35%;
+    border: 1px solid rgb(211, 211, 211);
+}
+.email_field{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+.your_email{
+    border: 1px solid rgb(211, 211, 211);
+    width: 72%;
+    margin-top: 10px;
+}
+.date_container, strong{
+    margin-top: 20px;
+    text-align: center;
+}
+.celender{
+    border: 1px solid rgb(211, 211, 211);
+    width: 72%;
+}
+.register_btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn_register{
+    width: 72%;
+    margin-bottom: 30px;
+    color: white;
+    border: transparent;
+}
+
+@media (max-width: 320px){
+    .common_container{
+        
+        
+    }
+    .about_company{
+        padding: 10%;
+    }
+    .registration_content{
+        padding: 10%;
+    }
+}
